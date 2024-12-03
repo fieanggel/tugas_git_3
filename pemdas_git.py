@@ -86,3 +86,4 @@ def harvest_list(data):
     print_attention_needed(data)
 
 harvest_list(data_panen)
+print("hello")
