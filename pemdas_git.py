@@ -60,7 +60,7 @@ def print_total_harvest(data):
 
 def print_all_locations(data):
     """Menampilkan hasil panen untuk semua lokasi dalam format baru"""
-    print(" Nomor 5 ")
+    print("Ini Nomor 5 ")
     for lokasi, info in data.items():
         print(f"Lokasi {info['nama_lokasi']}")
         for komoditas, jumlah in info['hasil_panen'].items():
